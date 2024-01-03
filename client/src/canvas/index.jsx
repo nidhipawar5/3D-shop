@@ -17,10 +17,11 @@ const CanvasModel = () => {
       <Environment preset="city" />
 
       <CameraRig>
-        <Backdrop />
-        <Center>
-          <Shirt />
-        </Center>
+        <Backdrop>
+          <Center>
+            <Shirt />
+          </Center>
+        </Backdrop>
       </CameraRig>
     </Canvas>
   )
